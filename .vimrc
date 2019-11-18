@@ -74,3 +74,4 @@ Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 autocmd vimenter * NERDTree
+autocmd BufNewFile,BufRead *.hbs set syntax=html
