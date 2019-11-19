@@ -58,6 +58,7 @@ set number		" Show line numbers.
 set expandtab		" Use spaces instead of tab.
 set tabstop=4		" Set number of spaces for tab.
 set shiftwidth=4	" Set number of spaces to indent.
+set clipboard=unnamedplus
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
