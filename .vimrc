@@ -60,6 +60,8 @@ set tabstop=4		" Set number of spaces for tab.
 set shiftwidth=4	" Set number of spaces to indent.
 set clipboard=unnamedplus
 
+hi MatchParen cterm=none ctermbg=green ctermfg=blue
+
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
