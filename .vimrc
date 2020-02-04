@@ -78,3 +78,4 @@ call plug#end()
 
 autocmd vimenter * NERDTree
 autocmd BufNewFile,BufRead *.hbs set syntax=html
+autocmd BufNewFile,BufRead *.hbs setl noai nocin nosi inde=<CR>
